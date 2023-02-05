@@ -1,7 +1,7 @@
 const { render } = require('ejs');
 const express = require('express');
 const router = express.Router();
-//const Task = require('../model/task');
+const Task = require('../model/task');
 let router = express()
 let Task = require("../model/task")
 let User = require("../model/user")
